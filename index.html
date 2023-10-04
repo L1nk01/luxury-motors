@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Motors</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4a2b2e0d5d.js" crossorigin="anonymous"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- Scripts -->
+    <script src="./src/index.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand navbar-size" href="#home-carousel">Luxury Motors</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id=navbarTogglerDemo02>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home-carousel" >Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services" >Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#form">Buscar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="home-carousel-container">
+        <div id="home-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/nissan-gtr (1).jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./assets/nissan-gtr (2).jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./assets/nissan-gtr (3).jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./assets/nissan-gtr (4).jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./assets/nissan-gtr (5).jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+    <section class="body">
+        <article id="slogan">
+            <h2>El Mejor Dealer de Carros en la Ciudad</h2>
+            <p>
+                Si estás buscando el mejor lugar para comprar un automóvil en nuestra ciudad, estás en el lugar 
+                correcto. En nuestro concesionario, nos enorgullece ofrecer una amplia gama de vehículos de alta 
+                calidad y un servicio excepcional que supera todas tus expectativas. 
+            </p>
+        </article>
+
+        <article id="services">
+            <h2>Nuestros Servicios</h2>
+            <p>
+                En Luxury Motors, nos enorgullece ofrecer una gama exclusiva de vehículos de lujo y servicios 
+                premium para satisfacer las necesidades de los amantes de la excelencia en la conducción. 
+                Descubre la distinción en cada detalle, desde la venta de automóviles de lujo hasta nuestro servicio 
+                de mantenimiento especializado. Nuestra pasión es brindar una experiencia única a nuestros clientes.
+            </p>
+            
+            <div class="ccard-container">
+                <div class="ccard">
+                    <i class="fa-regular fa-gem" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Automóviles de Lujo</h3>
+                        <p>Explora la cima de la elegancia y el rendimiento con nuestra exclusiva selección de vehículos de lujo.</p>
+                    </div>
+                </div>
+
+                <div class="ccard">
+                    <i class="fa-solid fa-coins" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Financiamiento Personalizado</h3>
+                        <p>Ofrecemos soluciones financieras hechas a tu medida para que puedas conducir el automóvil de tus sueños.</p>
+                    </div>
+                </div>
+
+                <div class="ccard">
+                    <i class="fa-solid fa-screwdriver-wrench" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Reparación y Mantenimiento</h3>
+                        <p>Mantén tu vehículo de lujo en su mejor forma con nuestro servicio de alta calidad y técnicos expertos.</p>
+                    </div>
+                </div>
+
+                <div class="ccard">
+                    <i class="fa-solid fa-car" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Pruebas de Manejo Exclusivas</h3>
+                        <p>Experimenta la excelencia en movimiento con pruebas de manejo personalizadas de nuestros modelos de lujo.</p>
+                    </div>
+                </div>
+
+                <div class="ccard">
+                    <i class="fa-solid fa-shield" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Garantías Extendidas</h3>
+                        <p>Conduce con confianza sabiendo que respaldamos la calidad de nuestros vehículos de lujo con garantías extendidas.</p>
+                    </div>
+                </div>
+
+                <div class="ccard">
+                    <i class="fa-solid fa-handshake-angle" style="color: #ffab02;"></i>
+
+                    <div class="inner-ccard">
+                        <h3>Asesoramiento de Ventas Profesional</h3>
+                        <p>Nuestro equipo de ventas altamente capacitado te guiará para encontrar el automóvil de lujo perfecto para ti.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="about">
+            <div id="about-left">
+                <img src="./assets/nissan-gtr (6).jpg" alt="car">
+            </div>
+
+            <div id="about-right">
+                <h2>Nuestra Empresa</h2>
+                <p>
+                    En Luxury Motors, nos enorgullece ser líderes en nuestra industria. Desde nuestra fundación, 
+                    hemos estado comprometidos en brindar productos y servicios de alta calidad que satisfacen las 
+                    necesidades de nuestros clientes. Nuestra pasión por la excelencia impulsa todo lo que hacemos.
+                    Nos destacamos por nuestra dedicación a la innovación y la satisfacción del cliente. Cada día, 
+                    trabajamos arduamente para superar las expectativas y ofrecer soluciones que marcan la diferencia.
+                </p>
+                <button class="button-yellow">Contáctanos</button>
+            </div>
+        </article>
+
+        <article id="form">
+            <h1>Verificar Existencia</h1>
+            <p>Ingresa los detalles del automóvil que estás buscando y presiona "Verificar Disponibilidad" para comprobar si tenemos un modelo similar en existencia.</p>
+
+            <form id="search-form">
+                <div class="fields">
+                    <input type="text" name="brand" placeholder="Marca">
+                    <input type="text" name="model" placeholder="Modelo">
+                    <input type="text" name="color" placeholder="Color">
+                    <input type="text" name="year" placeholder="Año">
+                    <input type="text" name="power" placeholder="Potencia">
+                </div>
+                <button class="button-gray">Enviar Formulario</button>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div id="footer" class="d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex gap-3">
+            <a class="social-icon" href="https://www.linkedin.com/in/emmanuel-campos-0b4985232/"><i class="fa-brands fa-linkedin fa-2x footer-icon"></i></a>
+            <a class="social-icon" href=""><i class="fa-brands fa-instagram fa-2x footer-icon"></i></a>
+            <a class="social-icon" href=""><i class="fa-brands fa-twitter fa-2x footer-icon"></i></a>
+            <a class="social-icon" href="mailto:ecampospaulino@gmail.com"><i class="fa-sharp fa-solid fa-envelope fa-2x footer-icon"></i></a>
+        </div>
+
+        <div class="text-center mt-4">
+            <p class="text-white mb-0">ITLA | Desarrollo de Software</p>
+            <p class="text-white mb-0">© Emmanuel Campos - Derechos Reservados | Santo Domingo, 2023</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,318 @@
+/* Fuente Cinzel Decorative */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+/* Fuente Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+}
+
+.navbar-nav {
+    justify-content: flex-end;
+}
+
+.navbar {
+    padding: 15px 15vw;
+    position: fixed;
+    z-index: 1;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.navbar-brand {
+    font-family: 'Cinzel Decorative';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(255, 171, 2) !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+    color: rgb(255, 171, 2) !important;
+}
+
+/* General purpose */
+p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 0;
+    border-bottom: 2px solid rgb(190, 190, 190);
+    font-size: 1.1rem;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    transition: border-bolor, 0.5s;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: rgb(255, 171, 2);
+}
+
+.button-yellow {
+    width: 170px;
+    height: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 171, 2);
+    border: 2px solid rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s, font-weight 0.15s, transform 0.2s ease;
+    transform-origin: center;
+}
+
+.button-yellow:hover {
+    background-color: rgb(30, 30, 30);
+    border-color: rgb(30, 30, 30);
+    color: rgb(255, 171, 2);
+    font-weight: 700;
+}
+
+.button-yellow:active {
+    transform: scale(1.05);
+}
+
+.button-gray {
+    width: 170px;
+    height: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid rgb(255, 171, 2) !important;
+    color: rgb(255, 171, 2);
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s, font-weight 0.15s, transform 0.2s ease;
+    transform-origin: center;
+}
+
+.button-gray:hover {
+    background-color: rgb(255, 171, 2);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.button-gray:active {
+    transform: scale(1.05);
+}
+
+select {
+    border: 2px solid rgb(190, 190, 190);
+    height: 50px;
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid rgb(190, 190, 190);
+    font-size: 1.1rem;
+}
+
+.carousel-inner {
+    max-height: 900px;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Slogan */
+#slogan {
+    background-color: rgb(255, 171, 2);
+    text-align: center;
+    padding: 120px 300px;
+}
+
+#slogan h2 {
+    margin-bottom: 50px;
+}
+
+#slogan p {
+    margin: 0;
+}
+
+/* Services */
+#services {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 120px 300px;
+}
+
+#services h2 {
+    color: rgb(255, 171, 2);
+    margin-bottom: 20px;
+}
+
+#services p {
+    color: white;
+    margin: 0;
+    font-weight: 100;
+}
+
+.ccard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 30px;
+    margin-top: 100px;
+}
+
+.ccard i {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    transition: color 0.2s;
+    color: rgb(255, 171, 2);
+}
+
+.ccard i:hover {
+    color: rgb(255, 193, 69) !important;
+}
+
+.inner-ccard {
+    width: 400px;
+    height: 250px;
+    transition: border 0.2s;
+    border: 2px solid rgb(65, 65, 65) !important;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.inner-ccard:hover {
+    border-color: rgb(111, 111, 111) !important;
+}
+
+.inner-ccard h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.inner-ccard p {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+/* About */
+#about {
+    scroll-margin-top: 250px;
+    display: flex;
+}
+
+#about-left, #about-right {
+    flex: 1;
+}
+
+#about-left img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 10% 0;
+}
+
+#about-right {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 171, 2);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-right h2 {
+    margin-bottom: 0px;
+}
+
+#about-right p {
+    margin: 0;
+}
+
+/* Register Form */
+#form {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 300px;
+    scroll-margin-top: 100px;
+}
+
+#form h1 {
+    color: rgb(255, 171, 2);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#form p {
+    font-weight: 100;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    justify-content: center;
+    gap: 30px 100px;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 15vw;
+    width: 100%;
+    background: linear-gradient(to top, rgb(17, 17, 17) 0%, rgba(51, 51, 51, 1) 100%);
+}
+
+.footer-icon {
+    color: #ffffff;
+    transition: color 0.2s;
+}
+
+.footer-icon:hover {
+    color: rgb(255, 171, 2);
+}
+
+footer p {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
