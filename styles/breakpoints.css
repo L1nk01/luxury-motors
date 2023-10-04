@@ -139,8 +139,13 @@
   }
 
   .navbar {
-    padding: 0 15px;
+    min-height: 70px;
     width: 100vw;
+    padding: 0 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
   }
 
   .carousel-inner {
@@ -183,7 +188,7 @@
 
   #about-right {
     align-items: center;
-    height: 700px;
+    height: 750px;
   }
 
   #about-right p {
@@ -195,14 +200,26 @@
     padding: 70px 20px;
   }
 
+  .fields {
+    padding: 0;
+  }
+
   /* Footer */
   #footer {
     height: 200px;
     padding: 0px 30px;
   }
 
+  #footer div:first-of-type {
+    gap: 0 20px !important;
+  }
+
   #footer p {
     font-weight: 100;
     font-size: 1rem;
+  }
+
+  #footer div a i{
+    font-size: 2.4rem;
   }
 }
