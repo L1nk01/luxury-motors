@@ -1,0 +1,118 @@
+@media (max-width: 1600px) {
+  p {
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.85rem;
+  }
+
+  h2 {
+    font-size: 1.57rem;
+  }
+
+  input {
+    width: 300px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding: 6px 4vw;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .nav-item {
+    padding: 0 10px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  /* Slogan */
+  #slogan {
+    padding: 100px 170px;
+  }
+
+  #slogan h2 {
+    margin-bottom: 30px;
+  }
+
+  /* Services */
+  #services {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 100px 170px;
+  }
+
+  #services p {
+    color: white;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  .ccard-container {
+    gap: 42.49px 28.46px;
+  }
+
+  .ccard i {
+    font-size: 1.8rem;
+  }
+
+  .inner-ccard {
+    width: 284.58px;
+    height: 177.86px;
+    border-radius: 20px;
+    padding: 14.23px 10.67px;
+  }
+
+  .inner-ccard h3 {
+    font-size: 1.07rem;
+    margin-bottom: 10.67px;
+  }
+
+  .inner-ccard p {
+    font-size: 0.92rem;
+  }
+
+  /* About */
+  #about {
+    scroll-margin-top: 80px;
+  }
+
+  #about-left img {
+    height: 500px;
+    object-fit: cover;
+    object-position: 29% 0;
+  }
+
+  #about-right {
+    height: 500px;
+  }
+
+  /* Form */
+  #form {
+    padding: 60px 100px;
+    scroll-margin-top: 60px;
+  }
+
+  /* Footer */
+  #footer {
+    height: 10vw;
+  }
+
+  #footer p {
+    font-weight: 100;
+    font-size: 0.7rem;
+  }
+
+  #footer div i {
+    font-size: 1.6rem;
+  }
+}

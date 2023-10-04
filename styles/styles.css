@@ -19,7 +19,7 @@
 .navbar {
     padding: 15px 15vw;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     width: 100%;
@@ -257,7 +257,7 @@ select:focus {
     margin: 0;
 }
 
-/* Register Form */
+/* Form */
 #form {
     background-color: rgb(51, 51, 51);
     color: white;
@@ -299,7 +299,6 @@ select:focus {
 #footer {
     width: 100%;
     height: 15vw;
-    width: 100%;
     background: linear-gradient(to top, rgb(17, 17, 17) 0%, rgba(51, 51, 51, 1) 100%);
 }
 
